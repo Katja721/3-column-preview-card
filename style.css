@@ -9,16 +9,40 @@
     justify-content: center;
     align-items: center;
     margin: 16%;
+    height: 15rem;
+}
+h1{
+    font-family: 'Big Shoulders Display';
+    color: #ffffff;
+}
+p{
+    font-family: 'Lexend Deca';
 }
 .sedans{
     margin: 2%;
+    background-color: hsl(31, 77%, 52%);
+    height: 25rem;
+    color: #ffffff;
 }
 .SUV{
     margin: 2%;
+    background-color: hsl(184, 100%, 22%);
+    height: 25rem;
+    color: #ffffff;
 }
 .luxury{
     margin: 2%;
+    background-color: hsl(179, 100%, 13%);
+    height: 25rem;
+    color: #ffffff;
 }
 .button{
-    
+    border: #ffffff solid 1px;
+    margin: 12%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 3%;
+    background-color: #ffffff;
+    color: #000000;
 }
