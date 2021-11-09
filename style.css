@@ -1,0 +1,24 @@
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16%;
+}
+.sedans{
+    margin: 2%;
+}
+.SUV{
+    margin: 2%;
+}
+.luxury{
+    margin: 2%;
+}
+.button{
+    
+}
