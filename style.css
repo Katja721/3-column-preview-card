@@ -1,3 +1,6 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
 .attribution { 
     font-size: 11px; text-align: center;
 }
@@ -8,41 +11,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 16%;
+    margin: 14% 16% 11% 16%;
     height: 15rem;
 }
 h1{
     font-family: 'Big Shoulders Display';
     color: #ffffff;
+    margin-bottom: 3.4rem;
+
 }
 p{
     font-family: 'Lexend Deca';
+    width: max-content;
+    margin-left: 4%;
 }
 .sedans{
-    margin: 2%;
+    margin: 2% 0 2% 2%;
     background-color: hsl(31, 77%, 52%);
     height: 25rem;
     color: #ffffff;
+    padding: 3rem 2rem ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    line-height: 1.5em;
+}
+.sedans .button{
+    color: hsl(31, 77%, 52%);
 }
 .SUV{
-    margin: 2%;
+    margin: 2% 0;
     background-color: hsl(184, 100%, 22%);
     height: 25rem;
     color: #ffffff;
+    padding: 3rem 2rem;
+    line-height: 1.5em;
+}
+.SUV .button{
+    color: hsl(184, 100%, 22%);
 }
 .luxury{
-    margin: 2%;
+    margin: 2% 2% 2% 0;
     background-color: hsl(179, 100%, 13%);
     height: 25rem;
     color: #ffffff;
+    padding: 3rem 2rem ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 1.5em;
+}
+.luxury .button{
+    color: hsl(179, 100%, 13%);
 }
 .button{
     border: #ffffff solid 1px;
-    margin: 12%;
+    margin: 5.5rem 0 1rem 0;
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 3%;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem 0.5rem 1.8rem;
     background-color: #ffffff;
     color: #000000;
+    align-items: center;
+    height: 1.5rem;
+    width: 6rem;
 }
