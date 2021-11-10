@@ -1,5 +1,6 @@
 body{
     background-color: hsl(0, 0%, 95%);
+
 }
 .attribution { 
     font-size: 11px; text-align: center;
@@ -16,7 +17,7 @@ body{
 }
 h1{
     font-family: 'Big Shoulders Display';
-    color: #ffffff;
+    color: hsl(0, 0%, 95%);
     margin-bottom: 3.4rem;
 
 }
@@ -24,13 +25,15 @@ p{
     font-family: 'Lexend Deca';
     width: max-content;
     margin-left: 4%;
+    font-size: 15px;
+    font-weight: 400;
 }
 .sedans{
     margin: 2% 0 2% 2%;
     background-color: hsl(31, 77%, 52%);
     height: 25rem;
-    color: #ffffff;
-    padding: 3rem 2rem ;
+    color: hsl(0, 0%, 95%);
+    padding: 2rem 3rem;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     line-height: 1.5em;
@@ -42,8 +45,8 @@ p{
     margin: 2% 0;
     background-color: hsl(184, 100%, 22%);
     height: 25rem;
-    color: #ffffff;
-    padding: 3rem 2rem;
+    color: hsl(0, 0%, 95%);
+    padding: 2rem 3rem;
     line-height: 1.5em;
 }
 .SUV .button{
@@ -53,8 +56,8 @@ p{
     margin: 2% 2% 2% 0;
     background-color: hsl(179, 100%, 13%);
     height: 25rem;
-    color: #ffffff;
-    padding: 3rem 2rem ;
+    color: hsl(0, 0%, 95%);
+    padding:  2rem 3rem;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     line-height: 1.5em;
@@ -63,15 +66,26 @@ p{
     color: hsl(179, 100%, 13%);
 }
 .button{
-    border: #ffffff solid 1px;
+    border: hsl(0, 0%, 95%) solid 2px;
     margin: 5.5rem 0 1rem 0;
     display: flex;
     justify-content: flex-start;
     border-radius: 20px;
     padding: 0.5rem 0.8rem 0.5rem 1.8rem;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: hsl(0, 0%, 95%);
     align-items: center;
     height: 1.5rem;
     width: 6rem;
+}
+ :hover.SUV .button {
+    background-color: hsl(184, 100%, 22%);
+    color : hsl(0, 0%, 95%);
+}
+:hover.sedans .button {
+    background-color: hsl(31, 77%, 52%);
+    color : hsl(0, 0%, 95%);
+}
+:hover.luxury .button {
+    background-color: hsl(179, 100%, 13%);
+    color : hsl(0, 0%, 95%);
 }
